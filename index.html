@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nostalgia</title>
+
+  <!-- ! google fonts start -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital@0;1&display=swap"
+    rel="stylesheet">
+  <!-- ? google fonts end -->
+
+  <!-- * fontawsome css file -->
+  <link rel="stylesheet" href="css/all.min.css">
+
+  <!-- * AOS css file  -->
+  <link rel="stylesheet" href="css/aos.css">
+
+  <!-- * tailwind js for css class -->
+  <script src="js/browser@4.js"></script>
+
+  <!-- * css file  -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/home.css">
+
+</head>
+
+<body class="font-inter">
+
+  <!-- ! header home secion start -->
+
+  <header id="header-home" class="w-full bg-red-600">
+
+    <!-- ! navbar home section start -->
+    <nav
+      class="fixed top-0 inset-x-0 z-50 bg-[var(--secondary)]/90 backdrop-blur-md border-b border-[var(--primary)]/10">
+      <div class="max-w-5xl mx-auto px-5">
+
+
+        <div class="flex items-center justify-between h-[60px]">
+
+          <!-- * Logo -->
+          <a href="index.html" class="font-boo text-[var(--primary)] text-3xl tracking-wide leading-none select-none">
+            Nostalgia
+          </a>
+
+
+          <ul class="hidden md:flex items-center gap-8">
+
+            <li><a href="products.html"
+                class="text-white/70 hover:text-[var(--primary)] transition-colors text-sm font-medium">Products</a>
+            </li>
+            <li><a href="about.html"
+                class="text-white/70 hover:text-[var(--primary)] transition-colors text-sm font-medium">About</a></li>
+            <li><a href="checkout.html"
+                class="text-white/70 hover:text-[var(--primary)] transition-colors text-sm font-medium">Check Out</a>
+            </li>
+            <li>
+              <a href="https://github.com/Hisham255/Nostalgia" target="_blank" rel="noopener"
+                class="flex items-center gap-1.5 text-white/70  hover:text-[var(--primary)] transition-colors text-sm font-medium">
+                <i class="fa-brands fa-github text-base"></i> GitHub
+              </a>
+            </li>
+          </ul>
+
+
+          <button id="menu_btn" aria-label="Toggle menu"
+            class="md:hidden text-white/70 hover:text-[var(--primary)] transition-colors w-9 h-9 flex items-center justify-center rounded-lg">
+            <i class="fa-solid fa-bars text-lg"></i>
+          </button>
+
+        </div>
+
+
+        <div id="min_menu">
+          <ul class=" flex flex-col gap-1 border-t py-4 border-[var(--primary)]/15">
+            <li><a href="products.html"
+                class="block px-3 py-2 rounded-lg text-white/70 hover:text-[var(--primary)] transition-all  text-sm font-medium hover:bg-[var(--primary)]/5">Products</a>
+            </li>
+            <li><a href="about.html"
+                class="block px-3 py-2 rounded-lg text-white/70 hover:text-[var(--primary)] transition-all  text-sm font-medium hover:bg-[var(--primary)]/5">About</a>
+            </li>
+            <li><a href="checkout.html"
+                class="block px-3 py-2 rounded-lg text-white/70 hover:text-[var(--primary)] transition-all  text-sm font-medium hover:bg-[var(--primary)]/5">Check
+                Out</a></li>
+            <li>
+              <a href="https://github.com/Hisham255/Nostalgia.git" target="_blank" rel="noopener"
+                class="flex items-center gap-2 px-3 py-2 rounded-lg text-white/70 hover:text-[var(--primary)] transition-all  text-sm font-medium hover:bg-[var(--primary)]/5">
+                <i class="fa-brands fa-github"></i> GitHub
+              </a>
+            </li>
+          </ul>
+        </div>
+
+
+      </div>
+    </nav>
+    <!-- ? navbar home section end -->
+
+
+    <!-- ! hero home section start -->
+    <section class="relative min-h-screen flex flex-col justify-end pb-20 pt-[60px] overflow-hidden">
+
+      <img src="assets/imgs/hero.jfif" class="absolute z-10 inset-0 w-full h-full object-cover object-center"
+        aria-hidden="true">
+
+      <div class="hero-fade absolute z-20 inset-0"></div>
+
+
+      <article class="relative z-30 max-w-5xl mx-auto w-full px-5 ">
+
+        <p class=" text-white text-base mb-5 font-playfair italic tracking-widest" data-aos="fade-down"
+          data-aos-duration="700">
+          Good morning, welcome in
+        </p>
+
+
+        <h1 class="font-boo text-white/95 text-[clamp(2.4rem,8vw,5rem)]  mb-7 max-w-2xl" data-aos="fade-up"
+          data-aos-duration="800" data-aos-delay="80">
+          Start your day with something special
+        </h1>
+
+
+        <div class="flex flex-wrap gap-3" data-aos="fade-up" data-aos-duration="700" data-aos-delay="180">
+
+          <a href="tel:+201080593817"
+            class="inline-flex items-center gap-2 font-semibold text-sm border border-[var(--primary)] text-[var(--primary)]  px-7 py-3 rounded-full hover:bg-[var(--primary)] hover:text-[var(--secondary)] duration-300 transition-all ">
+            <i class="fa-solid fa-phone text-xs"></i> Call Us
+          </a>
+
+          <a href="products.html"
+            class="inline-flex items-center gap-2 bg-[var(--primary)] text-[var(--secondary)] font-bold px-7 py-3 rounded-full text-sm hover:brightness-110 transition-all duration-300 shadow-lg shadow-[var(--primary)]/25">
+            <i class="fa-solid fa-mug-hot text-xs"></i> Order Now
+          </a>
+
+        </div>
+
+      </article>
+
+      <div class="absolute z-40 bottom-6 left-1/2 -translate-x-1/2 flex flex-col items-center gap-1.5 opacity-40"
+        >
+        <span class="font-inter text-[10px] tracking-[2px] text-white ">SCROLL</span>
+
+        <i class="fa-solid fa-chevron-down text-[var(--primary)] text-xs animate-bounce"></i>
+      </div>
+    </section>
+    <!-- ? hero home section end -->
+
+  </header>
+
+  <!-- ? header home secion end -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!--* fontawsome js -->
+  <script src="js/all.min.js"></script>
+
+  <!-- * AOS js file -->
+  <script src="js/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+
+  <!-- * js files  -->
+  <script src="js/main.js"></script>
+
+
+</body>
+
+</html>

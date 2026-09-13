@@ -1,0 +1,60 @@
+/* * global css file  */
+
+:root {
+
+    /* ! colors */
+    --primary: #bd5b00;
+    --secondary: #311e0d;
+
+
+
+    /* ! fonts */
+    --boo-font: "Black Ops One";
+    --inter-font: "Inter", sans-serif;
+    --playfair-font: "Playfair Display", serif;
+
+}
+
+/* * global elements edit */
+html {
+    scrollbar-width: thin;
+
+}
+
+/* * global class */
+.font-boo {
+    font-family: var(--boo-font);
+}
+
+.font-playfair {
+    font-family: var(--playfair-font);
+}
+
+.font-inter {
+    font-family: var(--inter-font);
+}
+
+/*
+ ?======================================================================================
+ !======================================================================================
+ todo================ global css edits for all pages ===================================
+ !======================================================================================
+ ?======================================================================================
+*/
+
+
+
+/* ! navbr global section start */
+
+#min_menu {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height .35s ease;
+}
+
+#min_menu.open {
+
+    max-height: 320px;
+}
+
+/* ? navbr global section end */

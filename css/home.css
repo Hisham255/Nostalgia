@@ -1,0 +1,14 @@
+/* ! header home section start */
+
+/* ! hero home section start */
+.hero-fade {
+    background: linear-gradient(180deg,
+            rgba(49, 30, 13, .55) 0%,
+            rgba(49, 30, 13, .30) 35%,
+            rgba(49, 30, 13, .90) 80%,
+            #311e0d 100%);
+}
+
+/* ? hero home section end */
+
+/* ? header home section end */
