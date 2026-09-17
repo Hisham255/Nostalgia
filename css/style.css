@@ -21,6 +21,12 @@ html {
 
 }
 
+body {
+    background-color: var(--secondary);
+    color: #fff;
+    overflow-x: hidden;
+}
+
 /* * global class */
 .font-boo {
     font-family: var(--boo-font);
@@ -33,6 +39,15 @@ html {
 .font-inter {
     font-family: var(--inter-font);
 }
+
+.divider {
+    height: 1px;
+    background: linear-gradient(90deg, transparent, #df8026, transparent);
+    opacity: .35;
+
+}
+
+
 
 /*
  ?======================================================================================
@@ -58,3 +73,15 @@ html {
 }
 
 /* ? navbr global section end */
+
+/* ! main home section start */
+
+/* ! pros home section start */
+.pro-ring {
+    background: radial-gradient(circle at 30% 30%, rgba(223, 128, 38, .2), transparent 70%);
+    border: 1px solid rgba(223, 128, 38, .3);
+}
+
+/* ? pros home section end */
+
+/* ? main home section end */

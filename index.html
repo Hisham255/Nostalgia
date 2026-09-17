@@ -33,11 +33,11 @@
 
   <!-- ! header home secion start -->
 
-  <header id="header-home" class="w-full bg-red-600">
+  <header class="header-home w-full">
 
     <!-- ! navbar home section start -->
     <nav
-      class="fixed top-0 inset-x-0 z-50 bg-[var(--secondary)]/90 backdrop-blur-md border-b border-[var(--primary)]/10">
+      class="fixed top-0 inset-x-0 z-50 bg-[var(--secondary)]/90 backdrop-blur-md  border-b border-[var(--primary)]/10">
       <div class="max-w-5xl mx-auto px-5">
 
 
@@ -141,8 +141,7 @@
 
       </article>
 
-      <div class="absolute z-40 bottom-6 left-1/2 -translate-x-1/2 flex flex-col items-center gap-1.5 opacity-40"
-        >
+      <div class="absolute z-40 bottom-6 left-1/2 -translate-x-1/2 flex flex-col items-center gap-1.5 opacity-40">
         <span class="font-inter text-[10px] tracking-[2px] text-white ">SCROLL</span>
 
         <i class="fa-solid fa-chevron-down text-[var(--primary)] text-xs animate-bounce"></i>
@@ -155,17 +154,206 @@
   <!-- ? header home secion end -->
 
 
+  <!-- ! main home section start -->
+
+  <main class="main-home w-full">
+
+    <!-- ! products home section start -->
+    <section class="py-20 overflow-hidden">
+      <div class="max-w-5xl mx-auto px-5">
+
+
+        <div data-aos="fade-right" data-aos-duration="600" class="mb-10">
+          <h2 class="font-boo text-white text-3xl md:text-4xl">From our menu</h2>
+          <p class="font-playfair italic text-[var(--primary)] text-base">Crafted fresh every morning</p>
+        </div>
+
+
+        <div class="flex gap-4 pb-3 snap-x scroll snap-mandatory overflow-x-auto overflow-y-hidden -mx-5 px-5"
+          id="product_line">
+
+        </div>
+
+
+      </div>
+    </section>
+
+    <div class="divider max-5xl mx-auto"></div>
+    <!-- ? products home section end -->
+
+
+    <!-- ! pros home section start -->
+    <section class="py-20 px-5">
+      <div class="max-w-5xl mx-auto">
+
+
+        <div class="text-center mb-14" data-aos="fade-up">
+
+          <h2 class="font-boo tracking-widest text-3xl md:text-4xl text-white">Why Nostalgia?</h2>
+
+          <p class="text-[var(--primary)] font-playfair italic mt-2 tracking-wide text-base">The small things that make
+            all the
+            difference</p>
+        </div>
+
+
+        <div class="gap-5 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 " id="pros">
+
+        </div>
+      </div>
+    </section>
+    <div class="divider max-w-5xl mx-auto"></div>
+    <!-- ? pros home section end -->
+
+    <div id="done_mes"
+      class="fixed z-[999] bottom-6 left-1/2 -translate-x-1/2 bg-[var(--primary)] text-[var(--secondary)] font-inter font-semibold text-sm transition-all duration-300 opacity-0 px-6 py-3 rounded-full shadow-xl  pointer-events-none">
+
+
+    </div>
+
+  </main>
+
+  <!-- ? main home section end -->
+
+
+  <!-- ! footer home section start -->
+
+  <footer class="pt-16 pb-8 px-5">
+    <div class="max-w-5xl mx-auto">
+
+
+      <div class="text-center mb-14" data-aos="fade-up">
+        <h6 class="font-boo select-none tracking-widest text-[clamp(3rem,12vw,9rem)] text-[var(--primary)]/[.2] ">
+          NOSTALGIA
+        </h6>
+
+        <p class="font-playfair italic text-gray-300 opacity-50 -mt-2 text-sm">Your daily cup of comfort</p>
+      </div>
+
+
+      <div class="mb-14 grid grid-cols-1 sm:grid-cols-3 gap-10 ">
+
+        <!-- *Social -->
+        <div data-aos="fade-up">
+          <h3 class="font-boo  tracking-wider text-base mb-5 text-[var(--primary)]">My Media</h3>
+
+          <ul class="flex flex-col gap-3">
+
+            <li>
+              <a href="https://www.instagram.com/hisham2552006/"
+                class="group flex text-white/50 hover:text-[var(--primary)] items-center gap-3 transition-colors"
+                target="_blank">
+                <span
+                  class="w-8 h-8 rounded-full border border-primary/25 flex items-center justify-center group-hover:border-primary/60 group-hover:bg-primary/8 transition-all text-sm">
+                  <i class="fa-brands fa-instagram"></i>
+                </span>
+                <span class="font-inter text-sm">@hisham.instagram</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://www.linkedin.com/in/hisham-lotfy-25h/"
+                class="group flex items-center gap-3 text-white/50 hover:text-[var(--primary)] transition-colors">
+                <span
+                  class="w-8 h-8 rounded-full border border-primary/25 flex items-center justify-center group-hover:border-primary/60 group-hover:bg-primary/8 transition-all text-sm">
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </span>
+                <span class="font-inter text-sm">@hisham.linkedin</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://github.com/Hisham255"
+                class="group flex items-center gap-3 text-white/50 hover:text-[var(--primary)] transition-colors">
+                <span
+                  class="w-8 h-8 rounded-full border border-primary/25 flex items-center justify-center group-hover:border-primary/60 group-hover:bg-primary/8 transition-all text-sm">
+                  <i class="fa-brands fa-github"></i>
+                </span>
+                <span class="font-inter text-sm">@hisham.github</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://leetcode.com/u/hishamola/"
+                class="group flex items-center gap-3 text-white/50 hover:text-[var(--primary)] transition-colors">
+                <span
+                  class="w-8 h-8 rounded-full border border-primary/25 flex items-center justify-center group-hover:border-primary/60 group-hover:bg-primary/8 transition-all text-sm">
+                  <i class="fa-brands fa-leetcode"></i>
+                </span>
+                <span class="font-inter text-sm">@hisham.leetcode</span>
+              </a>
+            </li>
+
+
+          </ul>
+        </div>
+
+        <div data-aos="fade-up" data-aos-delay="160">
+          <h3 class="font-boo text-[var(--primary)] tracking-wider text-base mb-5">Info</h3>
+          <ul class="flex flex-col gap-3">
+            <li>
+              <a href="#"
+                class="flex items-center gap-3 text-white/50 hover:text-[var(--primary)] transition-colors font-inter text-sm group">
+                <i
+                  class="fa-regular fa-circle-question text-[var(--primary)]/50 group-hover:text-[var(--primary)] transition-colors"></i>
+                FAQ
+              </a>
+            </li>
+            <li>
+              <a href="#"
+                class="flex items-center gap-3 text-white/50 hover:text-[var(--primary)] transition-colors font-inter text-sm group">
+                <i
+                  class="fa-solid fa-shield-halved text-[var(--primary)]/50 group-hover:text-[var(--primary)] transition-colors"></i>
+                Privacy Policy
+              </a>
+            </li>
+            <li>
+              <a href="#"
+                class="flex items-center gap-3 text-white/50 hover:text-[var(--primary)] transition-colors font-inter text-sm group">
+                <i
+                  class="fa-solid fa-truck text-[var(--primary)]/50 group-hover:text-[var(--primary)] transition-colors"></i>
+                Track Your Order
+              </a>
+            </li>
+            <li>
+              <a href="#"
+                class="flex items-center gap-3 text-white/50 hover:text-[var(--primary)] transition-colors font-inter text-sm group">
+                <i
+                  class="fa-solid fa-location-dot text-[var(--primary)]/50 group-hover:text-[var(--primary)] transition-colors"></i>
+                Our Location
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div data-aos="fade-up" data-aos-delay="160">
+          <h3 class="font-boo text-[var(--primary)] tracking-wider text-base mb-5">Servec</h3>
+          <p class="font-inter tracking-widest opacity-55 leading-6 font-normal text-base">every cup is made with care,
+            every moment feels familiar, and every visit becomes a memory. Come slow down, reconnect, and enjoy the
+            little moments that feel like home.</p>
+
+        </div>
 
 
 
+      </div>
+
+      <!-- Bottom bar -->
+      <div class="flex flex-col sm:flex-row items-center justify-between border-t border-gray-500  pt-6  gap-3">
+
+        <p class="font-inter text-gray-400 opacity-50 text-xs">
+          &copy; <span id="year"></span> Nostalgia Cafe. All rights reserved.
+        </p>
+
+        <p class="font-playfair italic text-gray-400 opacity-50 text-xs">Made with <span class="text-white">LOVE</span>
+        </p>
+      </div>
 
 
+    </div>
+  </footer>
 
-
-
-
-
-
+  <!-- ? footer home section end -->
 
 
 
@@ -180,7 +368,9 @@
 
 
   <!-- * js files  -->
+  <script src="js/dats.js"></script>
   <script src="js/main.js"></script>
+  <script src="js/home.js"></script>
 
 
 </body>

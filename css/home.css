@@ -12,3 +12,38 @@
 /* ? hero home section end */
 
 /* ? header home section end */
+
+/* ! main home section start */
+
+/* ! products home section start */
+/* * scrollbar editing */
+#product_line::-webkit-scrollbar {
+    height: 3px;
+}
+
+#product_line::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, .06);
+    border-radius: 99px;
+}
+
+#product_line::-webkit-scrollbar-thumb {
+    background: #df8026;
+    border-radius: 99px;
+}
+
+
+.product-card:hover {
+    box-shadow: 0 0 0 1px #df8026, 0 8px 32px rgba(223, 128, 38, .15);
+}
+
+/* ? products home section end */
+
+
+
+
+
+
+
+
+
+/* ? main home section end */
